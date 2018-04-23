@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+
+font_path = "res://Pacifico.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 40
+use_mipmaps = false
+use_filter = false
+font_data = SubResource( 1 )
+_sections_unfolded = [ "Font", "Settings" ]
+
+[node name="ScrollContainer" type="ScrollContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1080.0
+margin_bottom = 640.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+scroll_horizontal_enabled = true
+scroll_horizontal = 0
+scroll_vertical_enabled = true
+scroll_vertical = 0
+_sections_unfolded = [ "Margin", "Scroll" ]
+
+[node name="Label" type="Label" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1068.0
+margin_bottom = 1024.0
+rect_pivot_offset = Vector2( 0, 0 )
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+text = "Dear X,
+	Ive recently moved onto the estate of our deceased mother-in-law. With her passing she has left me a massive fortune rivaling that of the grigor family.
+	I barely know what to do with all this money. I hope that you will come up and visit soon and splurge with me a little. I know you're busy trying to get a 
+	job but I believe you can give up one weekend. Also, I hope you do not mind me sending you a letter like this. I know that an email would have been easier
+	for you but I couldnt help myself.
+	Your sister,
+			Eileen."
+autowrap = true
+percent_visible = -0.00231481
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Grow Direction", "Margin", "Size Flags", "custom_fonts" ]
+
+

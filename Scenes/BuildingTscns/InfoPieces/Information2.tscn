@@ -1,0 +1,62 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="DynamicFontData" id=1]
+
+font_path = "res://Pacifico.ttf"
+
+[sub_resource type="DynamicFont" id=2]
+
+size = 40
+use_mipmaps = false
+use_filter = false
+font_data = SubResource( 1 )
+_sections_unfolded = [ "Font", "Settings" ]
+
+[node name="ScrollContainer" type="ScrollContainer"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1080.0
+margin_bottom = 640.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+scroll_horizontal_enabled = true
+scroll_horizontal = 0
+scroll_vertical_enabled = true
+scroll_vertical = 0
+_sections_unfolded = [ "Margin", "Scroll" ]
+
+[node name="Label" type="Label" parent="." index="0"]
+
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 1068.0
+margin_bottom = 787.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 2
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 3
+size_flags_vertical = 4
+custom_fonts/font = SubResource( 2 )
+text = "Dear Brother, 
+	I hate to inform you but for the time being, it would be best if you did not come up to the mansion. My husband seems to believe you to be no good
+	and does not trust you since we have gained such a fortune. He actually believes that you were the reason behind late Anna's death. I will not keep you
+	any longer since I know how much you hate to be bothered.
+With Love, 
+	Eileen."
+autowrap = true
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+_sections_unfolded = [ "Grow Direction", "Margin", "Size Flags", "custom_fonts" ]
+
+
